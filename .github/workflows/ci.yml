@@ -8,8 +8,8 @@ on:
     branches: [main]          # every PR that targets main
 
 # ── Shared variables ─────────────────────────────────────────────────────────
-#env:
-#  IMAGE_NAME: ${{ secrets.DOCKERHUB_USERNAME }}/flask-demo
+env:
+ IMAGE_NAME: ${{ secrets.DOCKERHUB_USERNAME }}/flask-demo
 
 # ── Jobs ─────────────────────────────────────────────────────────────────────
 jobs:
